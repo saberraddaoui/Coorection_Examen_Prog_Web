@@ -1,0 +1,114 @@
+body{
+    /*
+    Largeur 1000 pixel Marge auto Police : "sans-serif", Arial */
+    width: 1000px;
+    margin: auto;
+    font-family: "sans-serif", Arial;
+}
+nav>ul{
+    /*alignement a droite*/
+    text-align: right;
+}
+.nav-item{
+    list-style-type: none;
+    display: inline;
+    margin-right:15px ;
+    /*Pas de puces Affichage inline Marge de droite 15 pixels */
+}
+li>a{
+    /*Taille de police 1.3em de couleur noir Pas de soulignement Texte en majuscule */
+    font-size: 1.3em;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+li>a:hover{
+    /*Arrière-plan noir Couleur blanc*/
+    background-color: black;
+    color: white;
+}
+header{
+    /*Position relative Hauteur 250 pixels Arrière-plan « iset-sfax.jpg » Ombre 0px 4px 4px black*/
+    position: relative;
+    height:250px ;
+    background-image: url("../images/iset-sfax.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 4px 4px balck;
+}
+#banniere{
+    /*Position absolue Bas 0 pixel Largeur 100% Hauteur 50px Couleur Blanc Arrière-plan 
+    rgba(24,24,24,0.8) Taille de la police 0.8em Coins arrondis 0px 0px 5px 5px*/
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 50px;
+    color: white;
+    background-color: rgba(24,24,24,0.8);
+    font-size: 0.8em;
+    border-radius: 0px 0px 5px 5px ;
+}
+button{
+    /*Position absolue de droite 5 pixels de bas 5 pixels Hauteur 
+    30 pixels Police de taille 1.2em et de couleur
+     blanc Arrière-plan marron Coins arrondis 5 pixels Curseur forme de la main */
+     position: absolute;
+     right: 5px;
+     bottom:5px ;
+     height: 30px;
+     font-size: 1.2em;
+     color: gray;
+     border-radius: 5px;
+     cursor: pointer;
+     
+    }
+    section{
+        position: relative;
+        margin-bottom: 30px;
+    }
+ h1{
+    /*Police : Dayrom, serif Texte en majuscule*/
+    font-family: "Dayrom",serif;
+    text-transform: uppercase;
+ }
+ article{
+    text-align: justify;
+ }
+ aside{
+    /*Position absolue de bas 3% et de droite 1% Largeur 300 pixels Texte de couleur blanc 
+    Alignement centré Arrière-plan gris Coins arrondis 5 pixels*/
+    position: absolute;
+    bottom: 3px;
+    right: 1px;
+    width: 300px;
+    color: white;
+    text-align: center;
+    background-color: grey;
+    border-radius: 5px;
+ }
+ 
+ ul>li{
+    /*Alignement à gauche  Puces carrés*/
+    text-align: left;
+    list-style-type: square;
+    
+ }
+ table{
+    /*Largeur 600 pixels Bordures adjacentes Titre en bas*/
+    width: 600px;
+    border-collapse: collapse ;
+    caption-side:bottom;
+ }
+ th{
+    /*Alignement centré Arrière-plan cyan */
+    text-align: center;
+    background-color: cyan;
+ }
+ td,th{
+    /*Bordure 1 pixel de couleur noir*/
+    border: 1px solid black;
+ }
+ footer{
+    /*Bordure de haut 1 pixel de couleur noir */
+    border:1px solid balck;
+ }
